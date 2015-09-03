@@ -18,11 +18,11 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
 // set location for static files
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/client'));
 
 // load public/index.html file (angular app)
 app.get('*', function (req, res) {
-  res.sendFile(__dirname + '/public/views/index.html');
+  res.sendFile(__dirname + '/client/views/index.html');
 });
 
 
