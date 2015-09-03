@@ -4,9 +4,9 @@
 
 1. Node.js
 2. Express
-3. Angular.js CDN (with ngRoute setup)
+3. Angular.js, CDN (with ngRoute setup)
 4. Body-parser
-5. Boostrap
+5. Boostrap, CDN
 
 ## Getting Started
 
@@ -43,7 +43,7 @@
 
 5. Run either `node server.js`, `npm start`, or `nodemon` (<a href="http://nodemon.io" target="_blank">docs</a>). All three commands do the same thing, which is start your server :)
 
-6. If you want to use [Sass](http://sass-lang.com/) with Compass [Compass](http://compass-style.org/)... 
+6. If you want to use [Sass](http://sass-lang.com/) with [Compass](http://compass-style.org/)... 
 
 	1. Mac: Install Compass:
 
